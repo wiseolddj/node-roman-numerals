@@ -1,0 +1,23 @@
+{
+  "name": "roman_numerals",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "consolidate": "^0.10.0",
+    "express": "^4.11.0",
+    "handlebars": "^2.0.0"
+  }
+}

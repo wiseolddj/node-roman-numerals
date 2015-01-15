@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Roman numerals API</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<article class="container">
+    <h1>Roman numerals API</h1>
+
+    <p>This is an API that converts integers to Roman numerals</p>
+
+    <h2>Usage</h2>
+
+    <p>This API provides JSON(default) responses that return the conversion</p>
+
+    <h3>Converting integers to roman numerals</h3>
+
+    <p>POST an integer to /generate</p>
+    <p>example:</p>
+
+    <pre>
+        POST: {"number":3}
+        ------
+        RESPONSE:
+        {"romanNumeral":"III","parsedNumber":3}
+    </pre>
+
+    <h3>Converting roman numerals to integers</h3>
+    <p>example:</p>
+
+    <pre>
+        POST: {"romanNumeral":"CXLV"}
+        ------
+        RESPONSE:
+        {"number":145,"parsedRomanNumeral":"CXLV"}
+    </pre>
+
+    <p>POST an integer to /parse</p>
+</article>
+</body>
+</html>
